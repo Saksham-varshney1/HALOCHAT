@@ -61,7 +61,7 @@ const Form = ({ type }) => {
   return (
     <div className="auth">
       <div className="content">
-        <img src="/assets/logo.png" alt="logo" className="logo" />
+        <img src="/assets/logo2.png" alt="logo" className="logo" />
 
         <form className="form" onSubmit={handleSubmit(onSubmit)}>
           {type === "register" && (
